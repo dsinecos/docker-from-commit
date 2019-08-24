@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 6060;
 
 app.get('/', (req, res, next) => {
   res.json({
-    message: "master: first server commit"
+    message: "master: second server commit"
   })
 })
 
